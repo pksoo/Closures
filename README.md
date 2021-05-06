@@ -10,4 +10,14 @@ A closure is a record that stores a function together with an environment: a map
 in an enclosing scope) with the value or reference to which the name was bound when the closure was created.A closure—unlike a plain function—allows the function to access 
 those captured variables through the closure’s copies of their values or references, even when the function is invoked outside their scope.
 
-In my example I used logging into a file so that when we work on big projects it will help us find error ,running whenever 
+In my code example I used logging module that lets you track events when your code runs so that when the code crashes you can check the logs and identify what caused it. Log messages have a built-in hierarchy – starting from debugging, informational, warnings, error and critical messages. You can include traceback information as well. It is designed for small to large python projects with multiple modules and is highly recommended for any modular python programming.
+
+Using logging, you can:
+
+1.Control message level to log only required ones
+2.Control where to show or save the logs
+3.Control how to format the logs with built-in message templates
+4.Know which module the messages is coming from
+
+so thats all !
+Have a good day
